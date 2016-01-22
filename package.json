@@ -1,0 +1,23 @@
+{
+  "name": "insightful",
+  "version": "1.0.0",
+  "description": "A synergistic approach to interactively actualizing holistic sample data.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kdoh/insightful"
+  },
+  "author": "Kyle Doherty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kdoh/insightful/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "business"
+  ],
+  "author": "Kyle Doherty",
+  "license": "MIT"
+}
