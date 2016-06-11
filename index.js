@@ -110,8 +110,18 @@ function pickWord(list) {
   return list[pick]
 }
 
-function createInsight() {
+function generate() {
   return pickWord(aggregations) + ' ' + pickWord(nouns)
 }
 
-module.exports = createInsight
+module.exports = function (numberOfInsights) {
+  // if a number is passed to the method then make that many insights
+  if (numberOfInsights) {
+    var insights = []
+    for(var i = 0; i < numberOfInsights; i ++) {
+      insights.push(generate())
+    }
+    return insights
+  }
+  return generate()
+}
